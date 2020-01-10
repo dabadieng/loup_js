@@ -170,7 +170,7 @@ let damier = creerDamier(nbLigne, nbColonne, 10);
 let perso = new Perso("perso.png",0,0,"pas.mp3","Gilles");
 perso.deplacer(0,0);
 let meute = [];
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 1; i++) { // nb de loup souhaitez
     meute.push(new Perso("loup.png",i, nbLigne-1, "loup.mp3", "loup " + i));
     meute[i].deplacer(i, nbLigne-1);
 }
